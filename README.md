@@ -1,7 +1,13 @@
 ```
-POST someapi.com/test/demo_form
-text="Работа Тайными Покупателями во всех регионах. Сервис для Тайных Покупателей — оплата без задержек + бонусы!
-msp4.me"&format=json&servise="facebook"&&commenttype="open"
+POST someapi.com/test/
+{
+  text: "...",
+  country: "ua", 
+  age: {
+	from: 18
+  },
+  gender: "male"
+}
 ```
 
 Response example:
