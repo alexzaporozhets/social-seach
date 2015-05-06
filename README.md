@@ -8,7 +8,7 @@ POST someapi.com/test/
   },
   gender: "male",
   interests: [""],
-  tags:[""]
+  hashtags:[""]
 }
 ```
 
