@@ -2,11 +2,12 @@
 POST someapi.com/test/
 {
   text: "...",
-  country: "ua", 
+  country: ["ua"], 
   age: {
 	from: 18
   },
-  gender: "male"
+  gender: "male",
+  interests: [""]
 }
 ```
 
