@@ -7,7 +7,8 @@ POST someapi.com/test/
 	from: 18
   },
   gender: "male",
-  interests: [""]
+  interests: [""],
+  tags:[""]
 }
 ```
 
